@@ -53,7 +53,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:id="@+id/Grades">
 
         <RadioButton
             android:layout_width="match_parent"
@@ -118,5 +119,6 @@
         android:text="Add Course"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="addCourse" />
 </RelativeLayout>
